@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Panji Kurniawan Lidjo</title>
+
+    <!-- Menggunakan CSS Bootstrap lokal (Pastikan folder CSS sejajar dengan file index.html) -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body class="bg-light text-dark">
+    <!-- KOMPONEN NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Panji Kurniawan Lidjo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyek">Proyek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- KONTEN UTAMA DENGAN CONTAINER & ROW -->
+    <header id="home" class="py-5 bg-white border-bottom">
+      <div class="container py-4">
+        <div class="row align-items-center">
+          <div class="col-lg-8 mx-auto text-center">
+            <h1 class="display-5 fw-bold mb-3">
+              Halo, Selamat Datang di Portofolio Saya!
+            </h1>
+            <p class="lead text-muted mb-4">
+              Mahasiswa Teknologi Informasi di Universitas 'Aisyiyah Yogyakarta
+              yang memiliki ketertarikan pada pengembangan web dan teknologi.
+            </p>
+            <a href="#proyek" class="btn btn-primary btn-lg shadow"
+              >Lihat Proyek Saya</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SECTION TENTANG SAYA -->
+    <section id="tentang" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="p-4 bg-dark text-white rounded shadow-sm">
+              <h3>Tentang Saya</h3>
+              <p class="mb-0">
+                Nama saya Panji Kurniawan Lidjo (NIM: 2511501004). Saya aktif
+                mendalami pemrograman, pemeliharaan sistem, serta merancang
+                antarmuka web yang responsif dan interaktif.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Pendidikan & Keahlian</h3>
+            <p class="text-muted">
+              Saat ini menempuh studi sarjana Teknologi Informasi angkatan 2025.
+              Menguasai dasar-dasar pemrograman, pengelolaan basis data, serta
+              pemecahan masalah teknologi.
+            </p>
+            <a href="#kontak" class="btn btn-outline-dark">Hubungi Saya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PROYEK (MENGGUNAKAN KOMPONEN CARD, ROW, CONTAINER, & BTN) -->
+    <section id="proyek" class="py-5 bg-white border-top">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Proyek Unggulan</h2>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Sistem SaaS Klinik</h5>
+                <p class="card-text text-muted flex-grow-1">
+                  Pengembangan sistem pembayaran berkala berbasis SaaS untuk
+                  manajemen data kesehatan klinik.
+                </p>
+                <a href="#" class="btn btn-outline-primary mt-3"
+                  >Detail Proyek</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Website Portofolio</h5>
+                <p class="card-text text-muted flex-grow-1">
+                  Situs web pribadi responsif yang dibangun menggunakan kerangka
+                  kerja Bootstrap versi terbaru.
+                </p>
+                <a href="#" class="btn btn-outline-primary mt-3"
+                  >Detail Proyek</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Manajemen Server Game</h5>
+                <p class="card-text text-muted flex-grow-1">
+                  Konfigurasi dan pengelolaan server komunitas game online
+                  dengan plugin kustom.
+                </p>
+                <a href="#" class="btn btn-outline-primary mt-3"
+                  >Detail Proyek</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION KONTAK -->
+    <section id="kontak" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <h3 class="fw-bold mb-3">Mari Terhubung</h3>
+            <p class="text-muted mb-4">
+              Punya pertanyaan atau ingin bekerja sama? Silakan hubungi melalui
+              email atau sosial media.
+            </p>
+            <a
+              href="mailto:panjikurniawanlidjo@gmail.com"
+              class="btn btn-dark btn-lg shadow-sm"
+              >Kirim Email</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 bg-dark text-white text-center">
+      <div class="container">
+        <p class="mb-0 small">
+          &copy; 2026 Panji Kurniawan Lidjo. Dibangun dengan Bootstrap 5.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Menggunakan JS Bootstrap lokal untuk fungsionalitas komponen interaktif (seperti toggle navbar mobile) -->
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
